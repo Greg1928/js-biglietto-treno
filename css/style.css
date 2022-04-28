@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: lightseagreen;
+    padding-bottom: 50px;
+}
+p{
+    font-size: 20px;
+}
+.content{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    height: 50%;
+    border: solid lightseagreen 2px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.txt{
+    border: solid lightseagreen 2px;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+body{
+    background-image: url("../img/smartcity-ctbc-keyvisual.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
